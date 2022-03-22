@@ -1,10 +1,12 @@
---                      Ready Or Not
---
--- Author:              deymon
--- Date:                03-18-2022
--- Last Modified by:    deymon
--- Last Modified date:  03-18-2022
+/** Ready Or Not
+ * @ Author: deymon
+ * @ Create Time: 2022-03-18 13:24:58
+ * @ Modified by: deymon
+ * @ Modified time: 2022-03-18 15:51:42
+ */
 
+include("modules/loadmodules.lua")
+include("shared.lua")
 
 local hide = {
 	CHudHealth = true,

@@ -132,6 +132,9 @@ escMenu.Open = function()
         leaveTextColor = white
 
         chat.PlaySound()
+        timer.Simple(.03, function()
+            chat.PlaySound()
+        end)
     end
     leaveButton.OnCursorExited = function()
         leaveColor = invis
@@ -163,6 +166,9 @@ escMenu.Open = function()
             selectedColor = lgrey
 
             chat.PlaySound()
+            timer.Simple(.03, function()
+                chat.PlaySound()
+            end)
         end
         button.OnCursorExited = function()
             selectedColor = grey
